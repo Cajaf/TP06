@@ -28,8 +28,8 @@ public class HomeController : Controller
     public IActionResult siguienteSala()
     {
         salaDeEscape juego = Objeto.convertirStringAObjeto<salaDeEscape>(HttpContext.Session.GetString("juego"));
-        string num = juego.pasarDeSala();
+        string salaactual = juego.pasarDeSala();
         HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
-        return View(num);
+        return View(salaactual);
     }
 }
