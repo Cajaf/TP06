@@ -19334,8 +19334,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "z:\\2025\\Programacion\\TP05\\Views\\Home\\sala2\\salaPista2.cshtml",
+      "TargetPath": "Views\\Home\\sala2\\salaPista2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "z:\\2025\\Programacion\\TP05\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\2025\\Programacion\\TP05\\Views\\Home\\sala3\\salaWordle.cshtml",
+      "TargetPath": "Views\\Home\\sala3\\salaWordle.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\2025\\Programacion\\TP05\\Views\\Home\\sala4\\salaPista4.cshtml",
+      "TargetPath": "Views\\Home\\sala4\\salaPista4.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\2025\\Programacion\\TP05\\Views\\Home\\sala1\\salaPista.cshtml",
+      "TargetPath": "Views\\Home\\sala1\\salaPista.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\2025\\Programacion\\TP05\\Views\\Home\\sala1\\salaSaco.cshtml",
+      "TargetPath": "Views\\Home\\sala1\\salaSaco.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\2025\\Programacion\\TP05\\Views\\Home\\sala4\\salaUltravioleta.cshtml",
+      "TargetPath": "Views\\Home\\sala4\\salaUltravioleta.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -19351,6 +19381,16 @@
     {
       "FilePath": "z:\\2025\\Programacion\\TP05\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\2025\\Programacion\\TP05\\Views\\Home\\sala2\\salaAcertijo.cshtml",
+      "TargetPath": "Views\\Home\\sala2\\salaAcertijo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\2025\\Programacion\\TP05\\Views\\Home\\sala3\\salaPista3.cshtml",
+      "TargetPath": "Views\\Home\\sala3\\salaPista3.cshtml",
       "FileKind": "mvc"
     }
   ],

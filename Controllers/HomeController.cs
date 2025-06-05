@@ -17,4 +17,19 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult empezarSala()
+    {
+        salaDeEscape juego = new salaDeEscape();
+        juego.empezarSalaDeEscape();
+        HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
+        return View("salaSaco");
+    }
+    
+    public IActionResult siguienteSala()
+    {
+        salaDeEscape juego = Objeto.convertirStringAObjeto<salaDeEscape>(HttpContext.Session.GetString("juego"));
+        string num = juego.pasarDeSala();
+        HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
+        return View(num);
+    }
 }
