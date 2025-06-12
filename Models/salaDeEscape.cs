@@ -1,4 +1,6 @@
 using Newtonsoft.Json;
+
+namespace TP05.Controllers;
 public class salaDeEscape
 {
 [JsonProperty]
@@ -31,14 +33,12 @@ views[3] = "salaUltravioleta";
 }
 
 public string pasarDeSala()
-{
-if(salaCompletada)
-{
-salaActual++;
-salaCompletada = false;
-}
-
+{ 
+    if((salaActual == 0 || juego1.salaCompletada) && (salaActual == 1 || juego2.salaCompletada) || (salaActual == 2 && juego3.salaCompletada) || (salaActual == 3 && juego4.salaCompletada))
+    {
+    salaActual++;
+    }
 return views[salaActual];
 }
-
 }
+

@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-
+namespace TP05.Controllers;
 public static class Objeto
 {      public static string convertirObjetoAString<T>(T? obj)
     {

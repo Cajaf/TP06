@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+namespace TP05.Controllers;
 public class wordle
 {
 [JsonProperty]
