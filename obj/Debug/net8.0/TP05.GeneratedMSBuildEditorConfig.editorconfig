@@ -9,63 +9,67 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP05
 build_property.RootNamespace = TP05
-build_property.ProjectDir = z:\2025\Programacion\TP05\
+build_property.ProjectDir = Z:\2025\Programacion\TP05\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = z:\2025\Programacion\TP05
+build_property.MSBuildProjectDirectory = Z:\2025\Programacion\TP05
 build_property._RazorSourceGeneratorDebug = 
 
-[z:/2025/Programacion/TP05/Views/Home/Index.cshtml]
+[Z:/2025/Programacion/TP05/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/Home/salaAcertijo.cshtml]
+[Z:/2025/Programacion/TP05/Views/Home/salaAcertijo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhQWNlcnRpam8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/Home/salaPista.cshtml]
+[Z:/2025/Programacion/TP05/Views/Home/salacompu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhY29tcHUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/2025/Programacion/TP05/Views/Home/salaPista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhUGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/Home/salaPista2.cshtml]
+[Z:/2025/Programacion/TP05/Views/Home/salaPista2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhUGlzdGEyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/Home/salaPista3.cshtml]
+[Z:/2025/Programacion/TP05/Views/Home/salaPista3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhUGlzdGEzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/Home/salaPista4.cshtml]
+[Z:/2025/Programacion/TP05/Views/Home/salaPista4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhUGlzdGE0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/Home/salaSaco.cshtml]
+[Z:/2025/Programacion/TP05/Views/Home/salaSaco.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhU2Fjby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/Home/salaUltravioleta.cshtml]
+[Z:/2025/Programacion/TP05/Views/Home/salaUltravioleta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhVWx0cmF2aW9sZXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/Home/salaWordle.cshtml]
+[Z:/2025/Programacion/TP05/Views/Home/salaWordle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhV29yZGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/Shared/_Layout.cshtml]
+[Z:/2025/Programacion/TP05/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/Shared/_ValidationScriptsPartial.cshtml]
+[Z:/2025/Programacion/TP05/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/_ViewImports.cshtml]
+[Z:/2025/Programacion/TP05/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/Programacion/TP05/Views/_ViewStart.cshtml]
+[Z:/2025/Programacion/TP05/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

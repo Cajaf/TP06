@@ -1,6 +1,50 @@
 {
   "Files": [
     {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\Thumbs.db",
+      "PackagePath": "staticwebassets\\Imagenes\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\captura.png",
+      "PackagePath": "staticwebassets\\Imagenes\\captura.png"
+    },
+    {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\casa.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\casa.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\cofre.png",
+      "PackagePath": "staticwebassets\\Imagenes\\cofre.png"
+    },
+    {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\cuadro.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\cuadro.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\mesa.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\mesa.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\pared.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\pared.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\pista.png",
+      "PackagePath": "staticwebassets\\Imagenes\\pista.png"
+    },
+    {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\saco.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\saco.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\sala.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\sala.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\css\\estilos.css",
+      "PackagePath": "staticwebassets\\css\\estilos.css"
+    },
+    {
       "Id": "Z:\\2025\\Programacion\\TP05\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
