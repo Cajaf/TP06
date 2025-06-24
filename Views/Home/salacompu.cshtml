@@ -1,14 +1,24 @@
-<form action='@Url.Action("siguentePista","Home")' method= "post">
-<input type="hidden" name="Verif" value="auigikjaghjsbhkj"/>
-
-<main>
-<button type="submit" class="comenzar">
-  siguente sala
-</button>
-<section>
+<section class = "compu">
 <div>
-    
+@for(int i = 0; i < ViewBag.verdes.Lenght;i++ )
+{
+    if(ViewBag.verdes)
+    {
+      <h1 class="verde">
+          @Html.Raw(ViewBag.ultimaPalabra[i]);
+      </h1>
+    }
+    else if(ViewBag.amarillas)
+    {
+      <h1 class="amarillo">
+          @Html.Raw(ViewBag.ultimaPalabra[i]);
+      </h1>
+    }else
+    {
+      <h1>
+        @Html.Raw(ViewBag.ultimaPalabra[i]);
+      </h1>
+    }
+}
 </div>
 </section>
-</main>
-</form>

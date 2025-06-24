@@ -10,6 +10,8 @@ public string palabra{get;private set;}
 public bool[]posEncontradas{get;private set;}
 [JsonProperty]
 public bool[]posLetrasE{get;private set;}
+[JsonProperty]
+public string ultimaPalabra{get;private set;}
 
     public void empezarjuego()
     {
@@ -26,6 +28,7 @@ public bool[]posLetrasE{get;private set;}
         }
     }
 
+
     public string juego(string palabraEnviada)
     {
         palabraEnviada = palabraEnviada.ToLower();
@@ -40,6 +43,7 @@ public bool[]posLetrasE{get;private set;}
 
         if(palabraEnviada.Length == palabra.Length)
         {
+            ultimaPalabra = palabraEnviada;
             for(int i = 0; i < palabra.Length;i++)
             {
                 if(palabra[i] == palabraEnviada[i])

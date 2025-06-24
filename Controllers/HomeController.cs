@@ -47,13 +47,18 @@ public class HomeController : Controller
         return View(salaactual);
     }
 
-       // public IActionResult salaCompu()
-    //{
-     //   salaDeEscape juego = Objeto.convertirStringAObjeto<salaDeEscape>(HttpContext.Session.GetString("juego"));
-      //  ViewBag.Fondo = "url(../imagenes/pared.jpg)";
-        //HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
-        //return View(salaactual);
-    //}
+        public IActionResult salaCompus()
+    {
+        salaDeEscape juego = Objeto.convertirStringAObjeto<salaDeEscape>(HttpContext.Session.GetString("juego"));
+        ViewBag.Fondo = "url(../imagenes/pared.jpg)";
+        juego.juego3.empezarjuego();
+        ViewBag.verdes = juego.juego3.posEncontradas;
+        ViewBag.amarillas = juego.juego3.posLetrasE;
+        ViewBag.ultimaPalabra = juego.juego3.ultimaPalabra;
+        HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
+        return View("salacompu");
+
+    }
     
 }
 

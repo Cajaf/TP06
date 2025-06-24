@@ -34,5 +34,13 @@ body {
 }
 
 .pista{
+background-color: antiquewhite;
+margin-left: 10%;
+margin-right: 10%;
 
 }
+
+.compu{
+border: 8px solid grey;
+border-radius: 20px;
+background-color: blue;}
