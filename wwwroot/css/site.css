@@ -43,4 +43,25 @@ margin-right: 10%;
 .compu{
 border: 8px solid grey;
 border-radius: 20px;
-background-color: blue;}
+background-color: blue;
+clear: both;
+padding-bottom: 20%;
+margin-left: 1%;
+margin-top: 2%;
+width: 97.5%;
+}
+
+.compu h1{
+  font-size: 400%;
+  text-align: center;text-align: center;
+
+}
+.compu div h1{
+  float: left;
+  background-color: white;
+  margin-left: 10%;
+  width: 4%;
+  
+  border: 1px black solid;
+}
+

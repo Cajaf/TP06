@@ -57,8 +57,25 @@ public class HomeController : Controller
         ViewBag.ultimaPalabra = juego.juego3.ultimaPalabra;
         HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
         return View("salacompu");
+    }
 
+    public IActionResult juegoWordlea(string Verif, string palabra)
+    {
+        string salasiguente = "salacompu";
+        salaDeEscape juego = Objeto.convertirStringAObjeto<salaDeEscape>(HttpContext.Session.GetString("juego"));
+        ViewBag.Fondo = "url(../imagenes/pared.jpg)";
+        juego.juego3.juego(palabra);
+        ViewBag.verdes = juego.juego3.posEncontradas;
+        ViewBag.amarillas = juego.juego3.posLetrasE;
+        ViewBag.ultimaPalabra = juego.juego3.ultimaPalabra;
+       
+        if(juego.juego3.salaCompletada)
+        {
+            salasiguente = juego.pasarDeSalaPista(Verif);
+        }
+         HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
+        return View(salasiguente);
     }
     
 }
-
+gi

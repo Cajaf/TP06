@@ -1,24 +1,37 @@
 <section class = "compu">
-<div>
-@for(int i = 0; i < ViewBag.verdes.Lenght;i++ )
+<h1>Wordle</h1>
+<div class = "wordle">
+@if(ViewBag.ultimaPalabra != null)
 {
-    if(ViewBag.verdes)
+  for(int i = 0; i < ViewBag.verdes.Length; i++)
+  {
+    if(ViewBag.verdes[i])
     {
       <h1 class="verde">
-          @Html.Raw(ViewBag.ultimaPalabra[i]);
+          @Html.Raw(ViewBag.ultimaPalabra[i])
       </h1>
     }
-    else if(ViewBag.amarillas)
+    else if(ViewBag.amarillas[i])
     {
       <h1 class="amarillo">
-          @Html.Raw(ViewBag.ultimaPalabra[i]);
+          @Html.Raw(ViewBag.ultimaPalabra[i])
       </h1>
     }else
     {
       <h1>
-        @Html.Raw(ViewBag.ultimaPalabra[i]);
+        @Html.Raw(ViewBag.ultimaPalabra[i])
       </h1>
     }
+  }
+}else
+{
+@for(int i = 0; i < ViewBag.verdes.Length; i++)
+{
+  <h1>
+    @Html.Raw("*")
+  </h1>
+}
 }
 </div>
+
 </section>
