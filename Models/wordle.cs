@@ -31,7 +31,7 @@ public string ultimaPalabra{get;private set;}
 
     public string juego(string palabraEnviada)
     {
-        palabraEnviada = palabraEnviada.ToLower();
+        
         for(int i = 0;i < posEncontradas.Length;i ++)
         {
             posEncontradas[i] = false;
@@ -40,9 +40,11 @@ public string ultimaPalabra{get;private set;}
         {
             posLetrasE[i] = false;
         }
-
+        if(palabraEnviada != null)
+        {
         if(palabraEnviada.Length == palabra.Length)
         {
+            palabraEnviada = palabraEnviada.ToLower();
             ultimaPalabra = palabraEnviada;
             for(int i = 0; i < palabra.Length;i++)
             {
@@ -78,7 +80,9 @@ public string ultimaPalabra{get;private set;}
                 posEncontradas[i] = false;
             }
         }
+        }
         return palabraEnviada;
     }
+    
 }
 

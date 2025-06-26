@@ -1,15 +1,23 @@
 
-<form action='@Url.Action("siguentePista","Home")' method= "post">
-<input type="hidden" name="Verif" value="LKAhfjagyeuiahb"/>
+<body class = "uv">
+
+
 
 <main>
-<button type="submit" class="comenzar">
-  <h1>siguente sala<h1>
-</button>
+<form action='@Url.Action("siguentePista","Home")' method= "post">
+<input type="hidden" name="Verif" value="LKAhfjagyeuiahb"/>
 </form>
 <section>
-<div>
-    
+<div id="uv-light">
 </div>
 </section>
 </main>
+<script>
+  const uvLight = document.getElementById('uv-light');
+
+  document.addEventListener('mousemove', function (e) {
+    uvLight.style.left = `${e.clientX}px`;
+    uvLight.style.top = `${e.clientY}px`;
+  });
+</script>
+</body>

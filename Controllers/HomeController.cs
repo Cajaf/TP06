@@ -59,6 +59,22 @@ public class HomeController : Controller
         return View("salacompu");
     }
 
+    public IActionResult acertijo(string Verif, string palabra)
+    {
+        salaDeEscape juego = Objeto.convertirStringAObjeto<salaDeEscape>(HttpContext.Session.GetString("juego"));
+        ViewBag.Fondo = juego.pasarDeSalaFondo();
+        string salaactual = "salaAcertijo";
+        if(palabra != null)
+        {
+        palabra = palabra.ToLower();
+        if(palabra == "huella")
+        {
+        salaactual = juego.pasarDeSalaPista(Verif);
+        }
+        }
+        HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
+        return View(salaactual);
+    }
     public IActionResult juegoWordlea(string Verif, string palabra)
     {
         string salasiguente = "salacompu";
@@ -71,11 +87,11 @@ public class HomeController : Controller
        
         if(juego.juego3.salaCompletada)
         {
-            salasiguente = juego.pasarDeSalaPista(Verif);
+        salasiguente = "salaPista3";
         }
          HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
         return View(salasiguente);
     }
     
 }
-gi
+

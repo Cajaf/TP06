@@ -8,7 +8,16 @@ html {
     font-size: 16px;
   }
 }
-
+.verde{
+color: green;
+}
+.amarillo{
+color: yellow;
+}
+.abajo{
+  clear: both;
+  margin-left: 35%;
+}
 .comenzar {
   background: transparent;
   border: none;
@@ -65,3 +74,46 @@ width: 97.5%;
   border: 1px black solid;
 }
 
+
+.uv {
+  margin: 0;
+  height: 100vh;
+  background-color: #111; /* fondo oscuro */
+  overflow: hidden;
+  cursor: none; /* opcional, oculta el cursor */
+}
+
+#uv-light {
+  position: fixed;
+  pointer-events: none; /* que no interfiera con clicks */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(138,43,226,0.8) 0%, rgba(138,43,226,0) 70%);
+  mix-blend-mode: screen; /* para mezcla de color */
+  filter: drop-shadow(0 0 10px rgba(138,43,226,0.8));
+  transform: translate(-50%, -50%);
+  transition: background 0.2s ease;
+}
+
+.zona-cliqueable {
+  position: absolute;
+  top: 65%;  /* ajustá según el punto superior de la pantalla en la imagen */
+  left: 50%; /* ajustá según el borde izquierdo de la pantalla */
+  width: 20%; /* ancho de la "pantalla" del portátil */
+  height: 30%; /* alto de la pantalla */
+  transform: translate(-50%, -50%); /* centra en ese punto */
+  opacity: 0; /* completamente invisible */
+  cursor: pointer;
+  z-index: 10;
+}
+
+.saco{
+  width: 50%;
+  margin-left: 210%;
+  margin-top: 110%;
+}
+
+.cofre{
+  width: 20%;
+}

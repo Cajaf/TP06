@@ -27,11 +27,20 @@
 {
 @for(int i = 0; i < ViewBag.verdes.Length; i++)
 {
+
   <h1>
     @Html.Raw("*")
   </h1>
 }
 }
 </div>
-
+<div class = "abajo">
+<form action='@Url.Action("juegoWordlea","Home")' method= "post">
+<input type="hidden" name="Verif" value="auigikjaghjsbhkj"/>
+<input type text name="palabra"/>
+ <button type="submit" class="comenzar">
+ Enviar Respuesta
+ </button>
+</form>
+</div>
 </section>
