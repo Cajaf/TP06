@@ -48,6 +48,7 @@ public string ultimaPalabra{get;private set;}
             ultimaPalabra = palabraEnviada;
             for(int i = 0; i < palabra.Length;i++)
             {
+                bool amarilla = true;
                 if(palabra[i] == palabraEnviada[i])
                 {
                     posEncontradas[i] = true;
@@ -56,9 +57,13 @@ public string ultimaPalabra{get;private set;}
                 {
                 for(int y = 0; y < palabra.Length;y++)
                 {
+                    if(amarilla)
+                    {
                     if(palabra[i] == palabraEnviada[y])
                     {
                         posLetrasE[y] = true;
+                        amarilla = false;
+                    }
                     }
                 }
                 }
@@ -74,7 +79,7 @@ public string ultimaPalabra{get;private set;}
         }
         else
         {
-            palabraEnviada = "error";
+            ultimaPalabra = "error!";
             for(int i = 0;i < posEncontradas.Length;i ++)
             {
                 posEncontradas[i] = false;

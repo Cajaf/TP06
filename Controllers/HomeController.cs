@@ -75,6 +75,23 @@ public class HomeController : Controller
         HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
         return View(salaactual);
     }
+
+        public IActionResult ultravioleta(string Verif, string palabra)
+    {
+        salaDeEscape juego = Objeto.convertirStringAObjeto<salaDeEscape>(HttpContext.Session.GetString("juego"));
+        ViewBag.Fondo = juego.pasarDeSalaFondo();
+        string salaactual = "salaUltravioleta";
+        if(palabra != null)
+        {
+        palabra = palabra.ToLower();
+        if(palabra == "7410")
+        {
+        salaactual = juego.pasarDeSalaPista(Verif);
+        }
+        }
+        HttpContext.Session.SetString("juego",Objeto.convertirObjetoAString(juego));
+        return View(salaactual);
+    }
     public IActionResult juegoWordlea(string Verif, string palabra)
     {
         string salasiguente = "salacompu";

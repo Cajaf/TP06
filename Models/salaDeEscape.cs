@@ -84,7 +84,7 @@ if(juego1.salaCompletada == true)
         {
            if(juego4.salaCompletada == true)
            {
-                //mandar a una sala de ganar//
+                salas = "salaPista4";
            }
            else if(contraseñas[3] == contraseñaEnviada)
            {
