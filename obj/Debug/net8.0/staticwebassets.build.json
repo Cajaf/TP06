@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8TRp+BD8HmHPn/A8HsLfKxZX20NqtkCEN9FYv3tkQ9Q=",
+  "Hash": "AFaom3NXeQL1r6j1hQ3A36w2TOHh3PJVkqcadvdZ2pM=",
   "Source": "TP05",
   "BasePath": "_content/TP05",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\casa.jpg"
+    },
+    {
+      "Identity": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\checho.png",
+      "SourceId": "TP05",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2025\\Programacion\\TP05\\wwwroot\\",
+      "BasePath": "_content/TP05",
+      "RelativePath": "Imagenes/checho.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\checho.png"
     },
     {
       "Identity": "Z:\\2025\\Programacion\\TP05\\wwwroot\\Imagenes\\cofre.png",
