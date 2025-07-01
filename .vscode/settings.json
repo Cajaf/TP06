@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net8.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/c764373a-e070-42ce-bc53-439f60f1830a/resourceGroups/asesinato-sala_group/providers/Microsoft.Web/sites/asesinato-sala"
+}
