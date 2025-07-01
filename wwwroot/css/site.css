@@ -75,9 +75,7 @@ margin-right: 10%;
 }
 
 .saco{
-  width: 50%;
-  margin-left: 210%;
-  margin-top: 110%;
+  width: 80%;
 }
 
 .cofre{
@@ -101,6 +99,9 @@ html {
   border: none;
   padding: 0;
   cursor: pointer;
+  width:20%;
+  margin-left: 55%;
+  margin-top: 30%;
 }
 
 
